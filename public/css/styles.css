@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 13vh;
+    background-color: rgb(21, 161, 21);
+    display: flex;
+    justify-content: space-between;
+    color: rgb(233, 227, 227)
+}
+
+.name_pag{
+    font-size: 1.7em;
+    margin: auto 0;
+    margin-left: 30px;
+}
+
+.links{
+    margin: auto 0;
+    margin-right: 30px;
+}
+
+.links a{
+    text-decoration: none;
+    color: rgb(233, 227, 227);
+    font-size: 20px;
+
+}
+
+.first_link{
+    margin-right: 20px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    
+}
+
+.author{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+label{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+input{
+    width: 500px;
+    height: 8vh;
+}
+
+input::placeholder{
+    text-align: center;
+}
+
+input:focus{
+    outline: none;
+}
+
+.btn {
+    width: 130px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: rgb(41, 196, 41);
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.btn:hover {
+    background-color: rgb(32, 148, 32);
+}
+
+.livros{
+    text-align: center;
+    margin: 40px auto;
+    max-width: 600px;
+    text-align: center;
+
+}
+
+.obras {
+    margin-right: 10px;
+}
+
+span{
+    font-weight: bold;
+}
+
+.form_button{
+    width: 20px;
+    height: 20px;
+
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgb(177, 176, 176);
+}
+#check{
+    margin: 0 5px;
+}
+
+.botao{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.done{
+    color:rgb(21, 161, 21)
+}
+
+.icon_link{
+    text-decoration: none;
+    color: grey
+}
+

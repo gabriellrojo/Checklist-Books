@@ -1,0 +1,27 @@
+<h1>Livros</h1>
+
+<div class="livros">
+{{#each books}}
+    <div class="list">
+        <p class="obras"><span>{{this.title}}</span> - {{this.author}}  
+        <form class="form_button" action="books/done" method="post">
+            <input type="hidden" name="done" value={{this.done}}>
+            <input type="hidden" name="id" value={{this.id}}>
+            {{#if this.done}}
+                <button class="botao done" disabled type="submit"><i class="bi bi-check2"></i>
+                </button>
+            {{else}}
+                <button class="botao" type="submit"><i class="bi bi-check2"></i>
+                </button>
+            {{/if}}
+        </form>
+        <a class="icon_link" href="/books/edit/{{this.id}}"><i id="check" class="bi bi-pencil-square"></i></a>
+        <form class="form_button" action="books/delete" method="post">
+        <input type="hidden" name="id" value={{this.id}}>
+            <button class="botao" type="submit"><i class="bi bi-x-lg"></i></button>
+        </form> </p>
+    </div>
+{{/each}}
+</div>
+
+
