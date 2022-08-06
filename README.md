@@ -1,6 +1,6 @@
 # Sobre
 
-Este projeto obedece a estrutura MVC e foi criado utilizando o NodeJs/Express, Handlebars e MySQL. Para a interação com o data base e aplicação da estrutura MVC, utilizei o sequelize. O nodemon foi utilizado como uma depedência de desenvolvimento pois atualiza sempre que o sistema sofre alguma alteração.
+Este projeto monolito e obedece a estrutura MVC e foi criado utilizando o NodeJs/Express, Handlebars e MySQL. Para a interação com o data base e aplicação da estrutura MVC, utilizei o sequelize. O nodemon foi utilizado como uma depedência de desenvolvimento pois atualiza sempre que o sistema sofre alguma alteração.
 
 # Checklist Livros
 
